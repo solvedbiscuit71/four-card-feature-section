@@ -66,28 +66,28 @@ header {
 
   .feature-card:nth-child(1) {
     border-top-color: $border-cyan;
-    background: white no-repeat url("images/icon-supervisor.svg") bottom 2em right 2em;
+    background: white no-repeat url("../images/icon-supervisor.svg") bottom 2em right 2em;
 
     grid-area: supervison;
   }
 
   .feature-card:nth-child(2) {
     border-top-color: $border-red;
-    background: white no-repeat url("images/icon-team-builder.svg") bottom 2em right 2em;
+    background: white no-repeat url("../images/icon-team-builder.svg") bottom 2em right 2em;
 
     grid-area: team-builder;
   }
 
   .feature-card:nth-child(3) {
     border-top-color: $border-orange;
-    background: white no-repeat url("images/icon-karma.svg") bottom 2em right 2em;
+    background: white no-repeat url("../images/icon-karma.svg") bottom 2em right 2em;
 
     grid-area: karma;
   }
 
   .feature-card:nth-child(4) {
     border-top-color: $border-blue;
-    background: white no-repeat url("images/icon-calculator.svg") bottom 2em right 2em;
+    background: white no-repeat url("../images/icon-calculator.svg") bottom 2em right 2em;
 
     grid-area: calculator;
   }

@@ -5,7 +5,7 @@
     "start": "serve",
 
     "dev": "lite-server",
-    "sass": "sass --watch css/sass:css"
+    "sass": "sass --watch sass:css"
   },
   "author": "solvedbiscuit71",
   "license": "ISC",
