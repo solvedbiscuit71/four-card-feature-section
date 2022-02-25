@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap");
+/* Primary color */
+/* Text color */
+:root {
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin-block: 5rem;
+}
+header .title {
+  font-weight: 200;
+  font-size: 1.5rem;
+  color: #676572;
+  width: fit-content;
+  margin-inline: auto;
+}
+header .title span {
+  color: #4c4e61;
+  font-weight: 600;
+  display: block;
+}
+header .intro {
+  color: #a3a5ae;
+  font-size: 1rem;
+  width: min(80%, 520px);
+  margin-inline: auto;
+}
+
+.feature {
+  display: grid;
+  gap: 1.6rem;
+  grid-template-columns: 312px;
+  grid-template-rows: repeat(4, 220px);
+  grid-template-areas: "supervison" "team-builder" "karma" "calculator";
+  place-content: center;
+  margin-block: 5rem;
+}
+.feature .feature-card:nth-child(1) {
+  border-top-color: #45d3d3;
+  background: white no-repeat url("../../images/icon-supervisor.svg") bottom 1em right 1em;
+}
+.feature .feature-card:nth-child(2) {
+  border-top-color: #ea5353;
+  background: white no-repeat url("../../images/icon-team-builder.svg") bottom 1em right 1em;
+}
+.feature .feature-card:nth-child(3) {
+  border-top-color: #fcaf4a;
+  background: white no-repeat url("../../images/icon-karma.svg") bottom 1em right 1em;
+}
+.feature .feature-card:nth-child(4) {
+  border-top-color: #549ef2;
+  background: white no-repeat url("../../images/icon-calculator.svg") bottom 1em right 1em;
+}
+
+.feature-card {
+  padding: 1.8em;
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px #d8e2ee;
+}
+.feature-card h2 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  color: #4c4e61;
+  margin: 0;
+}
+.feature-card p {
+  font-weight: 400;
+  font-size: 1rem;
+  color: #a3a5ae;
+  margin-block: 0.25em;
+}
+
+/*# sourceMappingURL=main.css.map */

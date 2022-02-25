@@ -1,0 +1,110 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;600&display=swap');
+
+/* Primary color */
+$border-red: hsl(0, 78%, 62%);
+$border-cyan: hsl(180, 62%, 55%);
+$border-orange: hsl(34, 97%, 64%);
+$border-blue: hsl(212, 86%, 64%);
+
+/* Text color */
+$text-bold: hsl(234, 12%, 34%);
+$text-normal: hsl(229, 6%, 66%);
+$text-light: hsl(250, 6%, 42%); 
+
+:root {
+  font-family: Poppins;
+  font-size: 15px;
+}
+
+body {
+  margin: 0;
+}
+
+header {
+  margin-block: 5rem;
+
+  .title {
+    font-weight: 200;
+    font-size: 1.5rem;
+    color: $text-light;
+
+    width: fit-content;
+    margin-inline: auto;
+
+    span {
+      color: $text-bold;
+      font-weight: 600;
+
+      display: block;
+    }
+  }
+
+  .intro {
+    color: $text-normal;
+    font-size: 1rem;
+
+    width: min(80%,520px);
+    margin-inline: auto;
+  }
+}
+
+.feature {
+  display: grid;
+  gap: 1.6rem;
+
+  grid-template-columns: 312px;
+  grid-template-rows: repeat(4,220px);
+  grid-template-areas: 
+    "supervison"
+    "team-builder"
+    "karma"
+    "calculator";
+  place-content: center;
+
+  margin-block: 5rem;
+
+  .feature-card:nth-child(1) {
+    border-top-color: $border-cyan;
+    background: white no-repeat url("../../images/icon-supervisor.svg") bottom 1em right 1em;
+  }
+
+  .feature-card:nth-child(2) {
+    border-top-color: $border-red;
+    background: white no-repeat url("../../images/icon-team-builder.svg") bottom 1em right 1em;
+  }
+
+  .feature-card:nth-child(3) {
+    border-top-color: $border-orange;
+    background: white no-repeat url("../../images/icon-karma.svg") bottom 1em right 1em;
+  }
+
+  .feature-card:nth-child(4) {
+    border-top-color: $border-blue;
+    background: white no-repeat url("../../images/icon-calculator.svg") bottom 1em right 1em;
+  }
+}
+
+.feature-card {
+  padding: 1.8em;
+
+  border-top-width: 5px;
+  border-top-style: solid;
+  border-radius: 5px;
+  box-shadow: 0px 3px 5px 0px rgba(216,226,238,1);
+
+  h2 {
+    font-weight: 600;
+    font-size: 1.5rem;
+    color: $text-bold;
+
+    margin: 0;
+  }
+
+  p {
+    font-weight: 400;
+    font-size: 1rem;
+    color: $text-normal;
+
+    margin-block: 0.25em;
+  }
+}
