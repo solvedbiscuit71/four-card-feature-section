@@ -1,0 +1,12 @@
+{
+  "name": "four-card-feature-section",
+  "description": "This is a challenge from frontendmentor.io",
+  "scripts": {
+    "dev": "lite-server"
+  },
+  "author": "solvedbiscuit71",
+  "license": "ISC",
+  "devDependencies": {
+    "lite-server": "^2.6.1"
+  }
+}
