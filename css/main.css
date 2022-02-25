@@ -44,22 +44,22 @@ header .intro {
 }
 .feature .feature-card:nth-child(1) {
   border-top-color: #45d3d3;
-  background: white no-repeat url("../../images/icon-supervisor.svg") bottom 2em right 2em;
+  background: white no-repeat url("images/icon-supervisor.svg") bottom 2em right 2em;
   grid-area: supervison;
 }
 .feature .feature-card:nth-child(2) {
   border-top-color: #ea5353;
-  background: white no-repeat url("../../images/icon-team-builder.svg") bottom 2em right 2em;
+  background: white no-repeat url("images/icon-team-builder.svg") bottom 2em right 2em;
   grid-area: team-builder;
 }
 .feature .feature-card:nth-child(3) {
   border-top-color: #fcaf4a;
-  background: white no-repeat url("../../images/icon-karma.svg") bottom 2em right 2em;
+  background: white no-repeat url("images/icon-karma.svg") bottom 2em right 2em;
   grid-area: karma;
 }
 .feature .feature-card:nth-child(4) {
   border-top-color: #549ef2;
-  background: white no-repeat url("../../images/icon-calculator.svg") bottom 2em right 2em;
+  background: white no-repeat url("images/icon-calculator.svg") bottom 2em right 2em;
   grid-area: calculator;
 }
 
