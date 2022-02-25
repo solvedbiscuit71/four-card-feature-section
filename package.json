@@ -2,6 +2,8 @@
   "name": "four-card-feature-section",
   "description": "This is a challenge from frontendmentor.io",
   "scripts": {
+    "start": "serve",
+
     "dev": "lite-server",
     "sass": "sass --watch css/sass:css"
   },
@@ -10,5 +12,8 @@
   "devDependencies": {
     "lite-server": "^2.6.1",
     "sass": "^1.49.9"
+  },
+  "dependencies": {
+    "serve": "^13.0.2"
   }
 }

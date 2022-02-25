@@ -32,3 +32,13 @@ The designs were created to the following widths:
 
   - Family: [Poppins](https://fonts.google.com/specimen/Poppins)
   - Weights: 200, 400, 600
+
+# To serve the project
+
+Run the below command in the project directory,
+```sh
+npm install
+npm start
+```
+
+This will run the app at http://localhost:3000/
